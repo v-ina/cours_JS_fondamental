@@ -338,6 +338,7 @@ console.log(arr1)
 */
 
 // VARIABLE COMPLEXE : LES OBJETS cle(프로퍼티라고 부른다)와  :와 값 이렇게 3개가 요소임. 각 프로퍼티는 콤마로 구분한다. 불러오는 방법은 점을 찍어서. 얘는 순서는 딱히 중요하지가 않다. 키가 있으므로.
+/*
 let obj1 = {
     maPremierePropriete : 12,
     maDeuxiemePropriete : 14,
@@ -348,24 +349,24 @@ let obj1 = {
 console.log(obj1.maPremierePropriete)
 console.log(obj1.prop9)
 
-
 let identity = {
     firstname: 'paul',
     lastname: 'Doazan',
     age: 35,
     town: 'talence'
 }
+*/
 
-// A l'aide de l'objet precedent, construire la chaine de caractere 
+// Exo_Q1. A l'aide de l'objet precedent, construire la chaine de caractere 
 // ==> Je m'appelle paul Doazan, j'ai 35 ans et j'habite a talence.
 
-
+/*
 let resultat = `Je m'appelle ${identity.firstname} ${identity.lastname}, j'ai ${identity.age} ans et j'habite a ${identity.town}.`
 
 console.log(resultat)
+*/
 
-
-// creer un deuxieme objet identity2, stocket identity et identity2 dans un tableau, et ecrire la phrase precedente en utilisant le tableau.
+// Exo_Q2. creer un deuxieme objet identity2, stocket identity et identity2 dans un tableau, et ecrire la phrase precedente en utilisant le tableau.
 
 /*
 let identity2 ={
@@ -389,6 +390,7 @@ console.log(arrIdentitiesResult)
 
 // A.
 
+/*
 let identity2 ={
     firstname: 'Pierre',
     lastname: 'Durand',
@@ -401,3 +403,4 @@ let arrIdentities = [identity, identity2]
 let arrIdentitiesResult = `Je m'appelle ${arrIdentities[1].firstname} ${arrIdentities[1].lastname}, j'ai ${arrIdentities[1].age} ans et j'habite a ${arrIdentities[1].town}.`
 
 console.log(arrIdentitiesResult)
+*/
